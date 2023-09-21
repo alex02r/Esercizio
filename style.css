@@ -1,0 +1,68 @@
+/*importiamo il font del sito*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.contain{
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 80px;
+}
+/* CSS dell' header*/
+header{
+    text-align: center;
+    color: lime;
+}
+header img{
+    width: 200px;
+}
+
+/*CSS della nav*/
+nav{
+    padding: 10px;
+    background-color: lime;
+    text-align: center;
+}
+
+/*CSS del main*/
+main{
+    color: white;
+}
+.monopattino{
+    margin: 20px;
+    font-weight: 200;
+}
+.monopattino h2{
+    font-weight: 400;
+}
+.arrow::after{
+    content: "\2192";
+  }
+.carica_media{
+    width: 30%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: coral;
+}
+.carica_alta{
+    width: 50%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+.carica_bassa{
+    width: 10%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: red;
+}
